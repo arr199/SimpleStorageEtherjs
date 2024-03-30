@@ -50,5 +50,4 @@ async function main() {
     await provider.waitForTransaction(storeTransaction.hash)
     console.log((await contract.retrieve()).toString()) // Use the retrieve method on the contract
 }
-
 main()
